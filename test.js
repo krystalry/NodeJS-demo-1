@@ -9,16 +9,20 @@ let http = require('http');
 //});
 
 //异步
-let data = fs.readFileSync('1.txt');
-console.log(data.toString());
+//let data = fs.readFileSync('1.txt');
+//console.log(data.toString());
+
+//-----------------------------------------------------------------
 
 //2.http服务
-let server = http.createServer(function (req, res) {
-    console.log(req.url);
-    //console.log(res);
-    res.statusCode = 201;
-    res.write('Hello');
-    res.end()
-});
-server.listen(9999);
-console.log(9999);
+//let server = http.createServer(function (req, res) {
+//    console.log(req.url);
+//    //console.log(res);
+//    res.statusCode = 201;
+//    res.write('Hello');
+//    res.end()
+//});
+//server.listen(9999);
+//console.log(9999);
+
+//-----------------------------------------------------------------
